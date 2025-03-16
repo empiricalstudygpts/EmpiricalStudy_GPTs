@@ -4,7 +4,7 @@ the names of GPTs in our experiments,
 
 their leaked expert prompts, 
 
-the names of their jit_plugins, 
+the names of their jit_plugins / knowledge files, 
 
 the classification of the GPTs based on the components they have (0 means no tools or knowledge, 1 means only basic tools, 2 means only user-defined tools, 3 means basic tools + user-defined tools, 4 means tools + knowledge), 
 
