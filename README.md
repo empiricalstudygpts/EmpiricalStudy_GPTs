@@ -18,20 +18,19 @@ Our work aims to:
 
 ## 🧩 Repository Structure
 ```text
-├── data for attack/                        
-│   ├── adversarial prompts/     # Attack prompts used in experiments
-│   ├── results/                 # Leaked information of top GPTs we obtained from basic attack
-│   └── results from variants/   # Leaked information of top GPTs we obtained from Attack Method Corpus
+├── attack data/                        
+│   ├── results.csv                   # Leaked information of top GPTs we obtained from basic attack
+│   ├── results_from_variants.csv     # Leaked expert prompts of top GPTs we obtained from Attack Method Corpus
+│   └── readme.md
 │
-├── data for defenes/                        
-│   ├── defensive prompts/           # Defensive prompts used in experiments
-│   ├── reverse-engineering GPTs/    # Leaked information of top GPTs we obtained
-│   └── metadata.json                # Dataset description
+├── defense data/                        
+│   ├── defensive_prompts.md             # Defensive prompts used in experiments
+│   └── reverse_engineering_GPTs.csv/    # Prompt enhanced GPTs we reconstruct
 │
 ├── src/                 # Core implementation
-│   ├── attacks/         # Attack algorithms and generation scripts
-│   ├── evaluation/      # Evaluation metrics and robustness tests
-│   └── utils/           # Helper functions
+│   ├── attacks.txt      # Attack prompts
+│   ├── gpts_list/       # Different GPTs target lists
+│   └── main.py          # Program that launch auto attacks
 │
 ├── requirements.txt     # Python dependencies
 └── README.md            # Documentation
@@ -52,7 +51,7 @@ pip install -r requirements.txt
 ### 2. Running Attacks
 ```bash
 python src/main.py \
-  --input gpts.csv \          # List of GPTs to be attack
+  --input src/gpts_list/gpts.csv \          # List of GPTs to be attack
   --output out \              # Output files
   --quesion "..." \           # Attack prompts
   --head --reuse-profile      
