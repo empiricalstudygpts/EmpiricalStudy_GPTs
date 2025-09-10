@@ -44,7 +44,7 @@ Our work aims to:
 ### 1. Installation
 
 ```bash
-git clone https://github.com/your-username/gpt-security-vulnerabilities.git
+git clone https://github.com/empiricalstudygpts/EmpiricalStudy_GPTs.git
 
 pip install -r requirements.txt
 ```
