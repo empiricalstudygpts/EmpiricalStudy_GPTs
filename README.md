@@ -1,8 +1,10 @@
 # An Empirical Study of the Security Vulnerabilities of GPTs
 
-[![Paper Status](https://img.shields.io/badge/Paper-Under_Review-blue)]()  
-[![License](https://img.shields.io/badge/License-MIT-green)]()  
-[![Dataset](https://img.shields.io/badge/Dataset-Available-orange)]()  
+<p align="center">
+  <img src="https://img.shields.io/badge/Paper-Under_Review-blue">
+  <img src="https://img.shields.io/badge/License-MIT-green">
+  <img src="https://img.shields.io/badge/Dataset-Available-orange">
+</p>
 
 ## 📖 Introduction
 This repository contains the **code, Attack Method Corpus and leaked information we obtained** accompanying our paper *"An Empirical Study of the Security Vulnerabilities of GPTs"* (currently under review).  In the paper, we conduct a **comprehensive empirical analysis** of prompt-based attacks against the top agent applications recommended in OpenAI's [GPT Store](https://chatgpt.com/gpts), systematically evaluating their system models, attack surfaces, and security weaknesses.
