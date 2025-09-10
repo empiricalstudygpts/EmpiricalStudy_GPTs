@@ -37,30 +37,33 @@ Our work aims to:
 └── README.md            # Documentation
 ```
 
+---
+
+## 🚀 Quick Start
+
+### 1. Installation
+
+```bash
+git clone https://github.com/your-username/gpt-security-vulnerabilities.git
+
+pip install -r requirements.txt
+```
+
+### 2. Running Attacks
+```bash
+python src/main.py \
+  --input gpts.csv \          # List of GPTs to be attack
+  --output out \              # Output files
+  --quesion "..." \           # Attack prompts
+  --head --reuse-profile      
+```
 
 
 
+## ⚠️ Ethical Considerations
 
+This repository is released **for academic research purposes only**. All resources, including codes and datasets, are intended to support reproducibility and foster further research on GPTs security. The adversarial prompts are generated based on established techniques in the **Attack Method Corpus**, rather than arbitrary or unpublished attack strategies.  
 
-
-
-
-
-This is the github repository of paper 《An Empirical Study of the Security Vulnerabilities of GPTs》. 
-
-
-The res.xlsx shows our results. Each column in the file corresponds to:
-
-the names of GPTs in our experiments,
-
-their leaked expert prompts, 
-
-the names of their jit_plugins / knowledge files, 
-
-the classification of the GPTs based on the components they have (0 means no tools or knowledge, 1 means only basic tools, 2 means only user-defined tools, 3 means basic tools + user-defined tools, 4 means tools + knowledge), 
-
-the results of attacks on three basic tools: DALL·E, Python and browser,
-
-the results knowledge injection attacks on three basic tools: DALL·E, Python and browser,
-
-our proposed prompt-enhanced version of GPTs (E represents including expert prompt defensive tokens, C represents including components defensive tokens, K represents including defensive tokens of separating knowledge instructions).
+- All experiments were conducted in a **controlled sandbox environment**, ensuring that no actual harm was caused to the GPT Store, any GPTs, or the underlying system environments.
+- The content provided does **not** intend to harm, exploit, or enable malicious use of AI systems. Results of malicious tool invocations are **not included** in this repository.  
+- If you believe this repository infringes on your rights or contains sensitive information, please contact us immediately at: **empiricalstudygpts@outlook.com**. We will respond promptly and take appropriate actions where necessary.  
