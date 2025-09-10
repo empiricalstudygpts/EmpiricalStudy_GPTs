@@ -36,9 +36,12 @@ Our work aims to:
 └── README.md            # Documentation
 ```
 
----
 
 ## 🚀 Quick Start
+
+### 0. Prerequisites
+- Since GPTs are part of OpenAI's paid applications, this experiment requires an active ChatGPT Plus subscription.
+- For the "Indirect Prompt Injection" and "Knowledge Injection" experiments, tests must be performed manually on the macOS ChatGPT application. The verified ChatGPT app version we use in our work is: 1.2025.175 (1751070473)
 
 ### 1. Installation
 
