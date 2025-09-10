@@ -2,16 +2,16 @@
 
 <p align="center">
   <!-- Paper status -->
-  <img src="https://img.shields.io/badge/Paper-Under_Review-blue">
+  <img src="https://img.shields.io/badge/Paper-Under_Review-blue.svg">
   
-  <!-- License -->
+  <!-- License (CC BY 4.0) -->
   <a href="https://creativecommons.org/licenses/by/4.0/">
-    <img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg">
+    <img src="https://img.shields.io/badge/License-CC%20BY%204.0-green.svg">
   </a>
   
   <!-- DOI -->
-  <a href="https://doi.org/10.5281/zenodo.1234567">
-    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1234567.svg">
+  <a href="https://doi.org/10.5281/zenodo.17092922">
+    <img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17092922-red.svg">
   </a>
 </p>
 
