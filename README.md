@@ -7,7 +7,7 @@
 </p>
 
 ## 📖 Introduction
-This repository contains the **code, Attack Method Corpus and leaked information we obtained** accompanying our paper *"An Empirical Study of the Security Vulnerabilities of GPTs"* (currently under review).  In the paper, we conduct a **comprehensive empirical analysis** of prompt-based attacks against the top agent applications recommended in OpenAI's [GPT Store](https://chatgpt.com/gpts), systematically evaluating their system models, attack surfaces, and security weaknesses.
+This repository contains the **code, attack prompts, and leaked information we obtained** accompanying our paper *"An Empirical Study of the Security Vulnerabilities of GPTs"* (currently under review).  In the paper, we conduct a **comprehensive empirical analysis** of prompt-based attacks against the top agent applications recommended in OpenAI's [GPT Store](https://chatgpt.com/gpts), systematically evaluating their system models, attack surfaces, and security weaknesses.
 
 
 Our work aims to:  
@@ -60,8 +60,8 @@ python3 src/main.py --input src/gpts_list/gpts.csv --output basic_attack --quest
 
 ## ⚠️ Ethical Considerations
 
-This repository is released **for academic research purposes only**. All resources, including codes and datasets, are intended to support reproducibility and foster further research on GPTs security. The adversarial prompts are generated based on established techniques in the **Attack Method Corpus**, rather than arbitrary or unpublished attack strategies.  
+This repository is released **for academic research purposes only**. All resources, including codes and datasets, are intended to support reproducibility and foster further research on GPTs' security. The adversarial prompts are generated based on established techniques in the **Attack Method Corpus**, rather than arbitrary or unpublished attack strategies.  
 
-- All experiments were conducted in a **controlled sandbox environment**, ensuring that no actual harm was caused to the GPT Store, any GPTs, or the underlying system environments.
+- All experiments were conducted in a controlled sandbox environment, ensuring no actual harm was caused to the GPT Store, GPTs, or underlying system environments.
 - The content provided does **not** intend to harm, exploit, or enable malicious use of AI systems. Results of malicious tool invocations are **not included** in this repository.  
 - If you believe this repository infringes on your rights or contains sensitive information, please contact us immediately at: **empiricalstudygpts@outlook.com**. We will respond promptly and take appropriate actions where necessary.  
