@@ -53,7 +53,7 @@ pip install -r requirements.txt
 
 ### 2. Running Attacks
 ```bash
-python3 src/main.py --input src/gpts_list/gpts.csv --output basic_attack --question "hi" --head --reuse-profile
+python src/main.py --input src/gpts_list/gpts.csv --output basic_attack --question "[the attack you want to conduct]" --head --reuse-profile
 ```
 
 
